@@ -6,6 +6,3 @@ btn.innerText = i;
 btn.onclick = function(a) {btn.style.backgroundColor = 'red'; 'purple'; 'blue'; 'black';};
 
 }
-
-
-
