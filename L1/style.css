@@ -1,12 +1,13 @@
 
 button{background-color: green;
 		width: 300px;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 		font-size: 50px;
 		}
 
 #container{background-color: grey;
-	border: solid grey;
-	margin-left: auto;
-	margin-right: auto;}
+	margin: auto;
+	font-size: 80px;
+	}
+
+a{background-color: red;}
