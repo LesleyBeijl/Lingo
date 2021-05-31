@@ -3,9 +3,9 @@ let btn = document.createElement("button");
 document.body.appendChild(btn);
 container.appendChild(btn);
 btn.innerText = i;
-btn.onclick = function(a) {changecolor(this)};
+btn.onclick = function(a) {btn.style.backgroundColor = 'red'; 'purple'; 'blue'; 'black';};
+
 }
 
-function changecolor(a) {
-	button.backgroundcolor = a.backgroundcolor; }
+
 
