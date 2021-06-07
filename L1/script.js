@@ -3,9 +3,10 @@ let btn = document.createElement("button");
 document.body.appendChild(btn);
 container.appendChild(btn);
 btn.innerText = i;
-var color = ["red", "purple", "blue", "black", "white", "yellow"];
+var color = ["red", "purple", "blue",  "white","black" , "yellow"];
 btn.onclick = function() {click (this,color) 
 	} 
+
 function click(button,color) {
 var color2 = color.indexOf(button.style.backgroundColor)
  button.style.backgroundColor = color[color2+1]
