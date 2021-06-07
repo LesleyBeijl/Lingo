@@ -1,1 +1,10 @@
-body{ background-color: red; }
+body{ background-color: grey; }
+
+#container{background-color: lightyellow;
+	margin: auto;
+	font-size: 50px;
+	width: 500px;
+	padding-left: 20px;
+	}
+
+button{ width: 50px; }
