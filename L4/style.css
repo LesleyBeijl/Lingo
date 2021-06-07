@@ -1,6 +1,6 @@
 body{ background-color: grey; }
 
-#container{background-color: lightyellow;
+#container{background-color: yellow;
 	margin: auto;
 	font-size: 50px;
 	width: 500px;
@@ -8,3 +8,17 @@ body{ background-color: grey; }
 	}
 
 button{ width: 100px; }
+
+.header{
+    margin: 5px;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    background: blue;
+    color: red;
+     border-radius: 50%;
+     font-size: 50px;
+}
+
+output{ font-size: 30px; }
+
